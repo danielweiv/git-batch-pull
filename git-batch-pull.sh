@@ -3,7 +3,6 @@
 CACHEDIR=$HOME
 CACHENAME=.git-update.cache
 CACHEHISTORY=.git-update-loc.cache
-EXPWD=$PWD
 
 # XXX support for removing cachefiles.
 if [ $1 ]
@@ -34,4 +33,3 @@ do
 	echo ""
 	cd - > /dev/null
 done
-cd $EXPWD
