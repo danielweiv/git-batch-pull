@@ -12,6 +12,7 @@ then
 fi
 
 # FIXME check for timestamps rather than existence of cachefile.
+# it wont work if cachefile exist and new repos are added in the directory. :(
 if ! [ -f $CACHEDIR/$CACHENAME ]
 then
 	for dir in $(find . -name ".git")
