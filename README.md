@@ -1,5 +1,5 @@
 # git-batch-pull
-Perfrom GIt-pull over multiple Git repos in a directory.
+Perform Git-pull over multiple Git repos in a directory.
 
 ### Usage
 
